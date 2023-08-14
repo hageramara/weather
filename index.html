@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <!-- <nav class="navbar py-5 navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center justify-content-center" href="#">
+                <img src="images/logo@2x.png" alt="logo">
+                <div class="ms-3">
+                    <h1 class="m-0 p-0 fs-6 fw-bolder">Weather</h1>
+                    <p class="m-0 p-0 fs-6 text-muted">tagline goes here</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-5" aria-current="page" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-5" aria-current="page" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-5" aria-current="page" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-5" aria-current="page" href="#">Contacts</a>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav> -->
+
+    <nav>
+        <nav class="navbar py-5 navbar-expand-lg navbar-light ">
+            <div class="container">
+                <div class="nav-logo ">
+                    <a class="navbar-brand d-flex align-items-center justify-content-center text-white" href="index.html">
+                        <img src="./img/logo@2x.png" class="w-25 me-2" alt="logo">
+                        <div class="ms-3">
+                            <h1 class="m-0 p-0 fs-6 fw-bolder">Weather</h1>
+                            <p class="m-0 p-0 fs-6 text-muted">tagline goes here</p>
+                        </div>
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link text-white" href="#">News</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link text-white" href="#">Live Cameras</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link text-white" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </nav>
+
+
+    <header class="py-5">
+        <div class="search position-relative">
+            <input type="text" placeholder="Find your location..."
+            class="form-control w-75 py-3 mx-auto rounded-pill mt-5" id="search">
+            <button id="submit" class="rounded-pill py-2 px-5 bg-info text-white btn position-absolute">Find</button>
+        </div>
+        <div class="container mt-5">
+            <div class="row g-3" id="Row">
+            </div>
+        </div>
+    </header>
+
+    <footer class="py-5">
+        <div class="container ">
+            <div class="row my-4 g-3 d-flex align-items-center justify-content-center">
+                <div class="col-md-9 ">
+                    <div class="form position-relative">
+                        <input class="form-control rounded-pill py-3" placeholder="Find Your Email To Subscribe..."
+                            type="text" id="email">
+                        <input type="button" value="Subscribe" id="Subscribe"
+                            class=" btn btn-info text-white rounded-5 px-4 py-2">
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <ul class="footer-list d-flex align-items-center justify-content-center gap-1">
+                        <li>
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+    
+
+
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

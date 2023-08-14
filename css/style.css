@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    list-style: none;
+
+}
+
+.navbar img {
+    width: 64px !important;
+}
+
+.navbar h1 {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: white;
+    margin-bottom: 6px !important;
+}
+
+.navbar p {
+    font-size: 10px !important;
+    color: #bfc1c8 !important;
+
+}
+
+.navbar {
+    background-color: #1E202B !important;
+}
+
+.navbar-collapse ul li a {
+    color: white !important;
+}
+
+.nav-item:hover a {
+    color: #009AD8 !important;
+}
+
+.active {
+    color: #009AD8 !important;
+}
+
+.navbar-nav .active a {
+    color: #009AD8 !important;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.navbar-nav a:hover {
+    color: #009AD8 !important;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.navbar-nav a {
+    font-size: 16px !important;
+    font-weight: 500;
+    line-height: 10px !important;
+}
+
+.container {
+    width: 75% !important;
+}
+
+
+header {
+    background-image: url(../img/banner.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: calc(100vh-50px);
+    background-color: #1E202B;
+}
+
+header .btn {
+    top: 5px !important;
+    bottom: 5px !important;
+    right: 13% !important;
+}
+
+header input {
+    background-color: #1E202B !important;
+    border: none !important;
+    color: white !important;
+}
+
+header input::placeholder,
+#email::placeholder {
+    color: #757575 !important;
+}
+
+.card {
+    background-color: #2D303D;
+}
+
+.card-body {
+    background-color: #323544;
+}
+
+.today p,
+.tomorrow p,
+.after-tomorrow p,
+.today ul li {
+    color: #BFC1C8;
+}
+
+.main-degree {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+/* footer */
+
+footer {
+    background-color: #262936;
+}
+
+#Subscribe {
+    background-color: #009AD8;
+    border-color: #009AD8;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+
+footer p {
+    color: #bfc1c8;
+    font-size: 13px;
+}
+
+#email {
+
+    background-color: #1E202B;
+    border-color: #1E202B;
+}
+
+.footer-list a {
+    font-size: 16px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #1E202B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    background-color: #009AD8;
+    color: white;
+}
